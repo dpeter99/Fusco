@@ -9,11 +9,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 file(GLOB src_files
-    "src/ast/*.cpp",
-    "src/interpreter/*.cpp",
-    "src/lexer/*.cpp",
-    "src/parser/*.cpp",
-    "src/*.cpp",
+    "src/ast/*.cpp", 
+    "src/interpreter/*.cpp", 
+    "src/lexer/*.cpp", 
+    "src/parser/*.cpp", 
+    "src/*.cpp", 
 )
 
 if(WIN32)
