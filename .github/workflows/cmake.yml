@@ -23,6 +23,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Downgrade
+      run: sudo apt-get install gcc=4:9.1.0-1ubuntu1
+
     - name: Configure CMake
       run: cmake --version && gcc --version && /usr/bin/c++ --version
 
